@@ -1,0 +1,31 @@
+#DigitalClock{
+    height: 17vw;
+    width: 22vw;
+    margin-top: 10%;
+    margin-left: 37%;
+    margin-right: 50%;
+    box-shadow: 4px 4px 2px 2px #39ff14;
+    background-color: black;
+    border-radius: 2vw;
+}
+
+@font-face{
+    font-family:'digital-7';
+    src: url(../../assets/digitalFont.ttf);
+   }
+
+h1,h3 {
+    font-family:'digital-7';
+    src: url(../../assets/digitalFont.ttf);
+    
+}
+h3 {
+    color: #FD0E35;
+    padding-left: 27%;
+}
+
+h1 {
+    color:#39ff14;
+    padding-top: 25%;
+    padding-left: 30%;
+}
